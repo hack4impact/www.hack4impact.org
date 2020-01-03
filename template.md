@@ -32,7 +32,7 @@ const features = [
     imgPath: ""
   }
 ]; // can be null
-const featureImgSize = null
+const featureImgSize = null;
 
 const techStack = [""]; // can be null, must follow specific format (look at `projectTechStack.js`)
 
@@ -75,5 +75,4 @@ export default {
   githubLink,
   team
 };
-
 ```

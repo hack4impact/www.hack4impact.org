@@ -12,7 +12,9 @@ const Footer = () => (
           </div>
           <p>
             For all inquiries of partnership or sponsorship, please contact us
-            at <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a>.
+            at{" "}
+            <a href="mailto:contact@hack4impact.org">contact@hack4impact.org</a>
+            .
           </p>
         </Col>
         <div className="col-md-1" />
@@ -55,7 +57,7 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <a href="mailto:uiuc@hack4impact.org">Email</a>
+              <a href="mailto:contact@hack4impact.org">Email</a>
             </li>
             <li>
               <Link href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">

@@ -38,7 +38,7 @@ export default {
           <br />
           This <a href={interestFormLink}> form </a>
           is open throughout the year and shoot us an
-          <a href="mailto:uiuc@hack4impact.org"> email</a> after you've
+          <a href="mailto:contact@hack4impact.org"> email</a> after you've
           submitted it!
           <ActionButton
             style={{ display: "block", marginTop: "10px" }}

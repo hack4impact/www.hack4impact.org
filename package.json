@@ -1,6 +1,6 @@
 {
-  "name": "uiuc.hack4impact.org",
-  "author": "Hack4Impact UIUC",
+  "name": "www.hack4impact.org",
+  "author": "Hack4Impact",
   "scripts": {
     "dev": "next",
     "build": "next build",

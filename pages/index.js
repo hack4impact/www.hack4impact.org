@@ -10,25 +10,25 @@ import ToastText from "../components/toastText";
 import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
-import { initializeGA, logPage } from "../components/Analytics"
+import { initializeGA, logPage } from "../components/Analytics";
 
 class Home extends React.Component {
   componentDidMount() {
     // need to open it once component is mounted bc of "document not found errors"
-    // toast(<ToastText text="Student Applications are Open!" />, {
-    //   className: "announcement",
-    //   bodyClassName: "announcement-body"
-    // });
-    initializeGA()
-    logPage()
+    toast(<ToastText text="Student Applications are Open!" />, {
+      className: "announcement",
+      bodyClassName: "announcement-body"
+    });
+    initializeGA();
+    logPage();
   }
 
   render() {
     return (
       <div>
-        <Head title="Hack4Impact UIUC" />
+        <Head title="Hack4Impact" />
         <Nav navType="mainNav" />
-        <ToastContainer />
+        {/* <ToastContainer /> */}
         <Banner />
         <OurWorkSection />
         <ClientSlider />

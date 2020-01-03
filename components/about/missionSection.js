@@ -21,7 +21,8 @@ const MissionSection = () => (
             responsible businesses to develop powerful new tools for social
             change. This enables nonprofits to further their mission and better
             engage their clients. We are committed to increasing awareness of
-            technology&#39;s potential for good.
+            technology&#39;s potential for good. We envision a tech industry
+            that emphasizes social impact as a core tenet of success.
           </p>
         </Col>
       </Row>

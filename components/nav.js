@@ -43,7 +43,7 @@ class NavigationBar extends React.Component {
               height="35"
               width="200"
               src="/static/images/colored-logo.png"
-              alttext="Hack4Impact UIUC logo"
+              alttext="Hack4Impact logo"
             />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
@@ -60,7 +60,7 @@ class NavigationBar extends React.Component {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="https://medium.com/hack4impact-uiuc">
+                <Link prefetch href="https://medium.com/@hack4impact">
                   <a className="nav-link pl-3">Blog</a>
                 </Link>
               </NavItem>
