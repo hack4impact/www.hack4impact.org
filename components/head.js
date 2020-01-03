@@ -3,7 +3,7 @@ import NextHead from "next/head";
 import { string } from "prop-types";
 
 const defaultDescription =
-  "We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
+  "We are a team of Penn students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
 const defaultOGURL = "www.hack4impact.org";
 const defaultOGImage = "/static/icons/favicon-32x32.png";
 

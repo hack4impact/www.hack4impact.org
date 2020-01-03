@@ -14,7 +14,7 @@ jobs:
       - run:
           command: yarn export
       - run:
-          command: surge out uiuc.hack4impact.org
+          command: surge out www.hack4impact.org
 workflows:
   version: 2
   upload_job:
@@ -23,4 +23,3 @@ workflows:
           filters:
             branches:
               only: master
-        
