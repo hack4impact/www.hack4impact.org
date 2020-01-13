@@ -11,6 +11,14 @@ const clients = [
     logoPath: "/static/images/chapters/upenn/upenn-logo.jpg",
     link: "https://hack4impact.org"
   },
+
+  {
+    name: "uiuc",
+    width: 125,
+    height: 36,
+    logoPath: "/static/images/chapters/uiuc/uiuc-logo.jpg",
+    link: "https://uiuc.hack4impact.org"
+  },
   {
     name: "gt",
     width: 125,

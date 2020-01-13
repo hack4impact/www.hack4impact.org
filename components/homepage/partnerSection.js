@@ -13,17 +13,17 @@ export default () => (
       <Row>
         <Col className="text-right">
           <img
-            width="150"
-            height="150"
-            src="/static/images/imc-logo.jpg"
+            width="210"
+            height="80"
+            src="/static/images/engineering.png"
             className="center partner-logos"
           />
         </Col>
         <Col>
           <img
-            width="150"
-            height="150"
-            src="/static/images/fb-logo.svg"
+            width="260"
+            height="65"
+            src="/static/images/wharton.png"
             className="center partner-logos"
           />
         </Col>

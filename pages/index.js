@@ -26,7 +26,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Head title="Hack4Impact" />
+        <Head title="Hack4Impact | Software for Nonprofits" />
         <Nav navType="mainNav" />
         {/* <ToastContainer /> */}
         <Banner />

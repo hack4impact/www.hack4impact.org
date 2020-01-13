@@ -42,7 +42,7 @@ const Footer = () => (
           <h4>EXTRAS</h4>
           <ul>
             <li>
-              <Link href="https://www.facebook.com/h4iuiuc/">
+              <Link href="https://www.facebook.com/Hack4Impact/">
                 <a>Facebook</a>
               </Link>
             </li>
@@ -52,7 +52,7 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <Link href="https://medium.com/hack4impact-uiuc">
+              <Link href="https://medium.com/@hack4impact">
                 <a>Blog</a>
               </Link>
             </li>
