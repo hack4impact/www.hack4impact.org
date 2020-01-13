@@ -39,7 +39,7 @@ export default {
     },
     {
       name: "Ben Demers",
-      role: "Developer",
+      role: "Community Director",
       linkedin: "https://www.linkedin.com/in/hana-rimawi/"
     },
     {
@@ -59,7 +59,7 @@ export default {
     },
     {
       name: "Daniel Tian",
-      role: "Community Director",
+      role: "External Director",
       linkedin: "https://www.linkedin.com/in/hana-rimawi/"
     },
     {
@@ -84,7 +84,7 @@ export default {
     },
     {
       name: "Jared Asch",
-      role: "Developer",
+      role: "Education Director",
       linkedin: "https://www.linkedin.com/in/hana-rimawi/"
     },
     {
@@ -114,7 +114,7 @@ export default {
     },
     {
       name: "Nabeel Farooqui",
-      role: "Developer",
+      role: "Projects Director",
       linkedin: "https://www.linkedin.com/in/hana-rimawi/"
     },
     {
