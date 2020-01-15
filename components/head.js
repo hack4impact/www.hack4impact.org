@@ -3,7 +3,7 @@ import NextHead from "next/head";
 import { string } from "prop-types";
 
 const defaultDescription =
-  "We are a team of Penn students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
+  "Hack4Impact is a 501 (c)(3) nonprofit organization founded at UPenn, with chapters at various colleges across the United States. We collaborate with nonprofits and other socially responsible organizations to develop software that meets important social and humanitarian needs.";
 const defaultOGURL = "www.hack4impact.org";
 const defaultOGImage = "/static/icons/favicon-32x32.png";
 
