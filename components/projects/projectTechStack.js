@@ -113,6 +113,21 @@ const techStackMasterList = {
     link: "https://expressjs.com",
     title: "ExpressJS",
     imgPath: "/static/images/techStack/express.png"
+  },
+  d3js: {
+    link: "https://d3js.org/",
+    title: "D3.js",
+    imgPath: "/static/images/techStack/d3js.png"
+  },
+  foundation: {
+    link: "https://js.foundation/",
+    title: "Foundation",
+    imgPath: "/static/images/techStack/foundation.png"
+  },
+  jquery: {
+    link: "https://jquery.com/",
+    title: "jQuery",
+    imgPath: "/static/images/techStack/jquery.png"
   }
 };
 

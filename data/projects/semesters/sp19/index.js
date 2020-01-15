@@ -5,7 +5,7 @@ import ProductInfraData from "./pi";
 
 // Fa18 Project Data
 export default {
-  semester: "Spring 2019",
+  semester: "Spring & Fall 2019",
   projects: [
     {
       ...KivaData

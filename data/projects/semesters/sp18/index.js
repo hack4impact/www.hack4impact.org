@@ -6,7 +6,7 @@ import Sp18NnbData from "./nnb-1";
 
 // TODO: NNB and Kiva
 export default {
-  semester: "Fall 2017 & Spring 2018",
+  semester: "Spring 2018",
   projects: [
     {
       ...LwbData
