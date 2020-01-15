@@ -1,4 +1,5 @@
 # Penn Chapter Website - www.hack4impact.org
+Alternative URL: https://laughing-shannon-8f39b1.netlify.com/ 
 
 ---
 
