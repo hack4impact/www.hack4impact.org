@@ -2,8 +2,6 @@
 
 ---
 
----
-
 This website is forked from the UIUC Chapter website, huge s/o to the UIUC Hack4Impact team!
 
 This website uses the server-rendered react framework, [Next.js](http://nextjs.org) for the best of both worlds, react usable components and faster page loads (since this is mostly a static website). We are also able to load configurations, text, etc based on config files (possibly json).
