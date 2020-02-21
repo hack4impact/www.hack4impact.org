@@ -4,360 +4,290 @@ export default {
       name: "Jamie Wang",
       year: "'20",
       quote:
-        "Hack4Impact has given me the opportunity to apply my skills towards important causes while improving myself at the same time. I hope to help others experience this personal growth, see the impact their work can have, and collaborate with other people who care just as much. ",
-      linkedin: "https://www.linkedin.com/in/angad-garg/"
+        "Hack4Impact has given me the opportunity to apply my skills towards important causes while improving myself at the same time. I hope to help others experience this personal growth, see the impact their work can have, and collaborate with other people who care just as much. "
     },
     {
       name: "Sarah Raines",
       year: "'20",
       quote:
-        "I joined Hack4Impact because I wanted to work on impactful products with like-minded, dedicated, and talented people. I hope to give others the same opportunities to work on projects they love with people they love through Hack4Impact.",
-      linkedin: "https://www.linkedin.com/in/royguanchiu/"
+        "I joined Hack4Impact because I wanted to work on impactful products with like-minded, dedicated, and talented people. I hope to give others the same opportunities to work on projects they love with people they love through Hack4Impact."
     }
   ],
   team: [
     {
       name: "Amit Lohe",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     ,
     {
       name: "Andrew Shen",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Annie Su",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Aruna Prasad",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Ben Demers",
-      role: "Community Director",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Community Director"
     },
     {
       name: "Carol Li",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Charles Zhang",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Christina Lu",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Daniel Tian",
-      role: "External Director",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "External Director"
     },
     {
       name: "Dzung Nguyen",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Gautam Narayan",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Grace Jiang",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Ivan Esmeral",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Jared Asch",
-      role: "Education Director",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Education Director"
     },
     {
       name: "Jasmine Lee",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Jediah Katz",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Katie Jiang",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Lisa Moshiro",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Lisa Yang",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Nabeel Farooqui",
-      role: "Projects Director",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Projects Director"
     },
     {
       name: "Nina Chang",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Robin Tan",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Siddharth Kumar",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Sofia Graziano",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Stephanie Shi",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Steven Bursztyn",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Vaibhaw Ladha",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     },
     {
       name: "Victor Chien",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/hana-rimawi/"
+      role: "Developer"
     }
   ],
   alumni: [
     {
       role: "Developer",
-      name: "Abhinav Suri",
-      linkedin: "https://www.linkedin.com"
+      name: "Abhinav Suri"
     },
     {
       role: "Developer",
-      name: "Alex Harelick",
-      linkedin: "https://www.linkedin.com"
+      name: "Alex Harelick"
     },
     {
       role: "Developer",
-      name: "Alex Piatski",
-      linkedin: "https://www.linkedin.com"
+      name: "Alex Piatski"
     },
     {
       role: "Developer",
-      name: "Alex Xu",
-      linkedin: "https://www.linkedin.com"
+      name: "Alex Xu"
     },
     {
       role: "Developer",
-      name: "Ali Altaf",
-      linkedin: "https://www.linkedin.com"
+      name: "Ali Altaf"
     },
     {
       role: "Developer",
-      name: "Annie Meng",
-      linkedin: "https://www.linkedin.com"
+      name: "Annie Meng"
     },
     {
       role: "Developer",
-      name: "Anosha Minai",
-      linkedin: "https://www.linkedin.com"
+      name: "Anosha Minai"
     },
     {
       role: "Developer",
-      name: "Arman Tokanov",
-      linkedin: "https://www.linkedin.com"
+      name: "Arman Tokanov"
     },
     {
       role: "Developer",
-      name: "Ben Sandler",
-      linkedin: "https://www.linkedin.com"
+      name: "Ben Sandler"
     },
     {
       role: "Developer",
-      name: "Brandon Obas",
-      linkedin: "https://www.linkedin.com"
+      name: "Brandon Obas"
     },
     {
       role: "Developer",
-      name: "Cathy Chen",
-      linkedin: "https://www.linkedin.com"
+      name: "Cathy Chen"
     },
     {
       role: "Developer",
-      name: "Daniel Zhang",
-      linkedin: "https://www.linkedin.com"
+      name: "Daniel Zhang"
     },
     {
       role: "Developer",
-      name: "Dhruv Maheshwari",
-      linkedin: "https://www.linkedin.com"
+      name: "Dhruv Maheshwari"
     },
     {
       role: "Developer",
-      name: "Elizabeth Hamp",
-      linkedin: "https://www.linkedin.com"
+      name: "Elizabeth Hamp"
     },
     {
       role: "Developer",
-      name: "Hana Pearlman",
-      linkedin: "https://www.linkedin.com"
+      name: "Hana Pearlman"
     },
     {
       role: "Developer",
-      name: "Hunter Lightman",
-      linkedin: "https://www.linkedin.com"
+      name: "Hunter Lightman"
     },
     {
       role: "Developer",
-      name: "Jonathan Dubin",
-      linkedin: "https://www.linkedin.com"
+      name: "Jonathan Dubin"
     },
     {
       role: "Developer",
-      name: "Julia Pan",
-      linkedin: "https://www.linkedin.com"
+      name: "Julia Pan"
     },
     {
       role: "Developer",
-      name: "Julie Chen",
-      linkedin: "https://www.linkedin.com"
+      name: "Julie Chen"
     },
     {
       role: "Developer",
-      name: "Kasra Khadem",
-      linkedin: "https://www.linkedin.com"
+      name: "Kasra Khadem"
     },
     {
       role: "Developer",
-      name: "Kasra Koushan",
-      linkedin: "https://www.linkedin.com"
+      name: "Kasra Koushan"
     },
     {
       role: "Developer",
-      name: "Krishna Bharathala",
-      linkedin: "https://www.linkedin.com"
+      name: "Krishna Bharathala"
     },
     {
       role: "Developer",
-      name: "Kyle Rosenbluth",
-      linkedin: "https://www.linkedin.com"
+      name: "Kyle Rosenbluth"
     },
     {
       role: "Developer",
-      name: "Max Mccarthy",
-      linkedin: "https://www.linkedin.com"
+      name: "Max Mccarthy"
     },
     {
       role: "Developer",
-      name: "Maya Ebsworth",
-      linkedin: "https://www.linkedin.com"
+      name: "Maya Ebsworth"
     },
     {
       role: "Developer",
-      name: "Moksh Jawa",
-      linkedin: "https://www.linkedin.com"
+      name: "Moksh Jawa"
     },
     {
       role: "Developer",
-      name: "Natasha Narang",
-      linkedin: "https://www.linkedin.com"
+      name: "Natasha Narang"
     },
     {
       role: "Developer",
-      name: "Nishita Jain",
-      linkedin: "https://www.linkedin.com"
+      name: "Nishita Jain"
     },
     {
       role: "Developer",
-      name: "Rachel Hong",
-      linkedin: "https://www.linkedin.com"
+      name: "Rachel Hong"
     },
     {
       role: "Developer",
-      name: "Rani Iyer",
-      linkedin: "https://www.linkedin.com"
+      name: "Rani Iyer"
     },
     {
       role: "Developer",
-      name: "Riley Wong",
-      linkedin: "https://www.linkedin.com"
+      name: "Riley Wong"
     },
     {
       role: "Developer",
-      name: "Roberta Nin Feliz",
-      linkedin: "https://www.linkedin.com"
+      name: "Roberta Nin Feliz"
     },
     {
       role: "Developer",
-      name: "Rodrigo Ornelas",
-      linkedin: "https://www.linkedin.com"
+      name: "Rodrigo Ornelas"
     },
     {
       role: "Developer",
-      name: "Sally Kong",
-      linkedin: "https://www.linkedin.com"
+      name: "Sally Kong"
     },
     {
       role: "Developer",
-      name: "Sanjay Subramanian",
-      linkedin: "https://www.linkedin.com"
+      name: "Sanjay Subramanian"
     },
     {
       role: "Developer",
-      name: "Santiago Buenahora",
-      linkedin: "https://www.linkedin.com"
+      name: "Santiago Buenahora"
     },
     {
       role: "Developer",
-      name: "Steven Bursztyn",
-      linkedin: "https://www.linkedin.com"
+      name: "Steven Bursztyn"
     },
     {
       role: "Developer",
-      name: "Suzanne Knop",
-      linkedin: "https://www.linkedin.com"
+      name: "Suzanne Knop"
     },
     {
       role: "Developer",
-      name: "Veronica Wharton",
-      linkedin: "https://www.linkedin.com"
+      name: "Veronica Wharton"
     },
     {
       role: "Developer",
-      name: "Yoni Nachmany",
-      linkedin: "https://www.linkedin.com"
+      name: "Yoni Nachmany"
     }
   ]
 };
