@@ -1,6 +1,6 @@
 ## Hack4Impact Website
 
-New Hack4Impact website. Front end is based of UIUC Chapter's site. However, we are adding a feature that allows user logins, and posting new updates from an admin dashboard.
+New Hack4Impact website. Front end is based on UIUC Chapter's site. However, we are adding a feature that allows user logins, and posting new updates from an admin dashboard.
 
 ## Get Started
 
