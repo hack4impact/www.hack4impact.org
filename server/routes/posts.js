@@ -51,13 +51,10 @@ router.delete("/:name", async (req, res) => {
 
 router.get("/", async (req, res) => {
   const data = await Posts.find();
-
   res.json({ status: "200", data: data });
 });
 
-/*
- * @description upload multiple images and return their url
- */
+// upload multiple images and return their url
 router.post(
   "/uploadImages",
   multerUpload.array("multiple-images"),
