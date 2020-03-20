@@ -8,7 +8,7 @@ const { upload } = require("../utils/image-helper");
 
 let storage = multer.diskStorage({
   destination: (req, file, callback) => {
-    callback(null, "./Uploads/");
+    callback(null, "./uploads/");
   },
   filename: (req, file, callback) => {
     callback(null, file.originalname);
