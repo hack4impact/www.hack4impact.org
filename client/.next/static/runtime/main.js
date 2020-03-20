@@ -7536,7 +7536,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/danieltian/Desktop/Clubs/Hack4Impact/code/www.hack4impact.org/.next");
+      source_map_support_1.rewriteStacktrace(error, "/Users/danieltian/Desktop/www.hack4impact.org/client/.next");
       return error;
     }
   };
@@ -8640,7 +8640,7 @@ function () {
 
                       case 2:
                         return _context3.abrupt("return", new _promise.default(function (resolve) {
-                          ws = new WebSocket("".concat(wsProtocol, "://").concat(hostname, ":").concat(55246).concat("/"));
+                          ws = new WebSocket("".concat(wsProtocol, "://").concat(hostname, ":").concat(53132).concat("/"));
 
                           ws.onopen = function () {
                             return resolve();
@@ -9987,23 +9987,23 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_58d07e29c47c216975f1 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_bc51211dbfbd73f472d7 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_58d07e29c47c216975f1 */ "dll-reference dll_58d07e29c47c216975f1"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_bc51211dbfbd73f472d7 */ "dll-reference dll_bc51211dbfbd73f472d7"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_58d07e29c47c216975f1 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_bc51211dbfbd73f472d7 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_58d07e29c47c216975f1 */ "dll-reference dll_58d07e29c47c216975f1"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_bc51211dbfbd73f472d7 */ "dll-reference dll_bc51211dbfbd73f472d7"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -10611,12 +10611,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_58d07e29c47c216975f1 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_bc51211dbfbd73f472d7 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_58d07e29c47c216975f1 */ "dll-reference dll_58d07e29c47c216975f1"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_bc51211dbfbd73f472d7 */ "dll-reference dll_bc51211dbfbd73f472d7"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -10831,12 +10831,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_58d07e29c47c216975f1 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_bc51211dbfbd73f472d7 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_58d07e29c47c216975f1 */ "dll-reference dll_58d07e29c47c216975f1"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_bc51211dbfbd73f472d7 */ "dll-reference dll_bc51211dbfbd73f472d7"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -16817,12 +16817,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_58d07e29c47c216975f1 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_bc51211dbfbd73f472d7 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_58d07e29c47c216975f1 */ "dll-reference dll_58d07e29c47c216975f1"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_bc51211dbfbd73f472d7 */ "dll-reference dll_bc51211dbfbd73f472d7"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -18467,12 +18467,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_58d07e29c47c216975f1 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_bc51211dbfbd73f472d7 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_58d07e29c47c216975f1 */ "dll-reference dll_58d07e29c47c216975f1"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_bc51211dbfbd73f472d7 */ "dll-reference dll_bc51211dbfbd73f472d7"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -18516,19 +18516,19 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/danieltian/Desktop/Clubs/Hack4Impact/code/www.hack4impact.org/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! /Users/danieltian/Desktop/www.hack4impact.org/client/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_58d07e29c47c216975f1":
+/***/ "dll-reference dll_bc51211dbfbd73f472d7":
 /*!*******************************************!*\
-  !*** external "dll_58d07e29c47c216975f1" ***!
+  !*** external "dll_bc51211dbfbd73f472d7" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_58d07e29c47c216975f1;
+module.exports = dll_bc51211dbfbd73f472d7;
 
 /***/ })
 

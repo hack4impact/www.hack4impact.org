@@ -5,6 +5,9 @@
   "repository": "https://github.com/hack4impact/www.hack4impact.org.git",
   "author": "Daniel Tian <dtian.95@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"cd server && yarn dev\" \"cd client && yarn dev\" "
+  },
   "dependencies": {
     "concurrently": "^5.1.0"
   }
