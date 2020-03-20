@@ -26,3 +26,4 @@ New Hack4Impact website. Front end is based on UIUC Chapter's site. However, we 
 - [ ] Create Frontend UI for Admin Login / Dashboard
 - [ ] Create Frontend UI for Admin Create Posts
 - [ ] Setup Authentication / Authorization System
+- [ ] Figure Out Deployment
