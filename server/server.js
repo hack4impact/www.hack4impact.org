@@ -3,7 +3,6 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 require("dotenv").config();
-var http = require("http");
 
 const app = express();
 const port = process.env.PORT || 8000;
@@ -23,6 +22,10 @@ const connection = mongoose.connection;
 connection.once("open", () => {
   console.log("MongoDB database connection established succesfully");
 });
+
+const postsRouter = require("./routes/posts");
+
+app.use("/posts", postsRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
