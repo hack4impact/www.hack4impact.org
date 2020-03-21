@@ -39,6 +39,7 @@ Personally, I recommend using MongoDB Compass for development. Additionally, for
 - Login
 - Who Am I
 - Logout
+
 **Posts**
 - Create New Post (Post refers to a Semester of Projects); Secured Route
 - Delete Post; Secured Route
