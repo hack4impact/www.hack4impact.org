@@ -2,6 +2,8 @@
 
 New Hack4Impact website. Front end is based on UIUC Chapter's site. However, we are adding features that allows user logins, and posting new updates from an admin dashboard.
 
+Tech Stack: React, ReactStrap, Next.JS, MongoDB, Express, NodeJS.
+
 ## Get Started
 
 - Clone this repo
