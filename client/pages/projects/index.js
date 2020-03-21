@@ -1,12 +1,12 @@
 import { Component } from "react";
-import Head from "../components/head";
-import Nav from "../components/nav";
-import GradientBanner from "../components/gradientBanner";
-import ErrorMessage from "../components/errorMessage";
-import ProjectExplore from "../components/projects/projectExplore";
-import Footer from "../components/footer";
-import { initializeGA, logPage } from "../components/Analytics";
-import ProjectList from "../components/projects/newprojectList";
+import Head from "../../components/head";
+import Nav from "../../components/nav";
+import GradientBanner from "../../components/gradientBanner";
+import ErrorMessage from "../../components/errorMessage";
+import ProjectExplore from "../../components/projects/projectExplore";
+import Footer from "../../components/footer";
+import { initializeGA, logPage } from "../../components/Analytics";
+import ProjectList from "../../components/projects/newprojectList";
 
 class Projects extends Component {
   constructor(props) {
@@ -24,6 +24,8 @@ class Projects extends Component {
   }
   render() {
     const { query } = this.props;
+    const dummy = [1, 2, 3];
+
     // return project List (regular project Page) if not query (just /projets)
     if (Object.keys(query).length === 0 && query.constructor === Object) {
       return (

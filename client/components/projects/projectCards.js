@@ -2,9 +2,9 @@ import { Card, CardBody } from "reactstrap";
 import ActionButton from "../actionButton";
 import Link from "next/link";
 
-export default ({ title, imgPath, link, subTitle }) => (
+export default ({ title, imgPath, id, subTitle }) => (
   <>
-    <Link href={link}>
+    <Link href={`/projects/${id}`}>
       <Card
         className="bg-light mb-3 project-card h-100"
         style={{ height: "100%" }}
@@ -16,7 +16,7 @@ export default ({ title, imgPath, link, subTitle }) => (
             {subTitle}
           </p>
           <div className="text-center action-btn-box">
-            <ActionButton white text="Read More" link={link} />
+            <ActionButton white text="Read More" link={`/projects/${id}`} />
           </div>
         </CardBody>
       </Card>

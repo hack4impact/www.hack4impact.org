@@ -7,8 +7,7 @@ const clientDetail =
   "Navigate safely through campus and learn about the health and safety resources near you with Illini SafeMaps. Illini SafeMaps is your real-time safety companion. With Illini SafeMaps, you can navigate around the U of I campus safely by viewing the locations of past crimes, police stations, emergency phones, running buses, open businesses, and streetlights. This app also enables you to be notified and access safety and health resources near you including SafeWalks and SafeRides so you can stay informed and make safer decisions. This project is the continuation to the previous C2TC project.";
 const clientLink =
   "http=//iventure.illinois.edu/index.php/portfolio/wanderweb/";
-const previousLink = 
-  "https://uiuc.hack4impact.org/projects/?name=c2tc-2";
+const previousLink = "https://uiuc.hack4impact.org/projects/?name=c2tc-2";
 const clientFeatures = [
   {
     title: "Students that don't feel safe",
@@ -56,8 +55,7 @@ const features = [
   },
   {
     title: "Share Tips To Make Community Safer",
-    detail:
-      "Learn and contribute to our large database of safety tips.",
+    detail: "Learn and contribute to our large database of safety tips.",
     imgPath: "/static/images/projects/safemaps/sm-share tips.png"
   }
 ];

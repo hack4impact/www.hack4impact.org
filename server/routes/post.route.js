@@ -51,7 +51,7 @@ router.delete("/:name", async (req, res) => {
 
 router.get("/", async (req, res) => {
   const data = await Posts.find();
-  res.json({ status: "200", data: data });
+  res.send(data);
 });
 
 // upload multiple images and return their url

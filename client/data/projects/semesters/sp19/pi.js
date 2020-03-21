@@ -1,7 +1,8 @@
 // Data for the sp19 PI Project
 const name = "Product Infrastructure";
 const id = "pi"; // second C2TC Project
-const detail = "How might we help Hack4Impact teams with setting up ground work and the quality of their product?";
+const detail =
+  "How might we help Hack4Impact teams with setting up ground work and the quality of their product?";
 const coverImagePath = "/static/images/projects/pi/pi-thumbnail.png";
 const clientDetail =
   "The goal of product infrastructure is to build generalized problems to these solutions. We want to build a open sourced authentication system with easy integration and well-thought out solutions for allowing users to securely handle signing up for an account, logging in, changing passwords, and promoting people to different levels of access";
@@ -42,8 +43,7 @@ const features = [
   },
   {
     title: "Role Change",
-    detail:
-      "You can promote/demote users given the correct permission levels",
+    detail: "You can promote/demote users given the correct permission levels",
     imgPath: "/static/images/projects/pi/pi-roles.png"
   },
   {

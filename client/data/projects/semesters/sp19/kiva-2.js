@@ -1,10 +1,13 @@
 // Data for the sp19 kiva Project - 2nd kiva project
 const name = "Kiva";
 const id = "kiva-2"; // second kiva Project
-const detail = "How might we expedite the reporting process with a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress?";
-const coverImagePath = "/static/images/projects/kiva-2/kiva2-thumbnail copy.png";
+const detail =
+  "How might we expedite the reporting process with a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress?";
+const coverImagePath =
+  "/static/images/projects/kiva-2/kiva2-thumbnail copy.png";
 
-const clientDetail = "Kiva is a nonprofit organization founded in 2006 that is funded via individual and corporate donations. Their mission is to alleviate poverty and connect people by funding loans. So far, Kiva has reached borrowers in 82 countries, and 1.7 million Kiva lenders have lent over a billion dollars to family businesses. Their goal is to reach 2 million people soon and lend the next 1 billion dollars in a shorter amount of time.";
+const clientDetail =
+  "Kiva is a nonprofit organization founded in 2006 that is funded via individual and corporate donations. Their mission is to alleviate poverty and connect people by funding loans. So far, Kiva has reached borrowers in 82 countries, and 1.7 million Kiva lenders have lent over a billion dollars to family businesses. Their goal is to reach 2 million people soon and lend the next 1 billion dollars in a shorter amount of time.";
 const clientLink = "https://www.kiva.org/"; // link to website
 const previousLink = null;
 const clientFeatures = [
@@ -26,7 +29,7 @@ const clientFeatures = [
   }
 ];
 const problem =
-"Kiva is a non-profit organization which crowdfunds loans for lower-income and underserved people all across the world. Kiva Field Partners act as intermediaries between Kiva and borrowers and are largely responsible for managing the details of loans and repayment. Currently, Field Partner financial documents are submitted through Kiva through email and must be manually checked to make sure all documents are provided and are properly filled out/formatted/etc.";
+  "Kiva is a non-profit organization which crowdfunds loans for lower-income and underserved people all across the world. Kiva Field Partners act as intermediaries between Kiva and borrowers and are largely responsible for managing the details of loans and repayment. Currently, Field Partner financial documents are submitted through Kiva through email and must be manually checked to make sure all documents are provided and are properly filled out/formatted/etc.";
 const problemImagePath = "/static/images/projects/kiva-2/kiva2-docs.jpg";
 const solution =
   "Our project consolidates this process into a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress. We integrate this with some file repository service (likely Box or GitHub) and aim to create a streamlined, secure portal that will eliminate the hassle of tracking multiple financial documents across a wide network of Field Partners.";
