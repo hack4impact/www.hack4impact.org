@@ -32,3 +32,17 @@ Personally, I recommend using MongoDB Compass for development. Additionally, for
 - [ ] Create Frontend UI for Admin Create Posts (\*\*)
 - [ ] Figure Out Deployment
 - [ ]  Migrate Data from Old Site to New Site (Maybe a Python scrapper?)
+
+## Backend Endpoints
+**Users**
+- Sign Up
+- Login
+- Who Am I
+- Logout
+**Posts**
+- Create New Post (Post refers to a Semester of Projects); Secured Route
+- Delete Post; Secured Route
+- Upload Images; Secured Route
+- Get All Post
+- Get One Project
+
