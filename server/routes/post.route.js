@@ -54,6 +54,30 @@ router.get("/", async (req, res) => {
   res.send(data);
 });
 
+// get one project based on its id
+router.get("/:id", async (req, res) => {
+  const allPosts = await Posts.find();
+
+  const projectId = req.params.id;
+
+  let targetPost;
+
+  allPosts.forEach(post => {
+    const projects = post.projects;
+    projects.forEach(project => {
+      if (project._id == projectId) {
+        targetPost = project;
+      }
+    });
+  });
+
+  if (targetPost) {
+    res.status(200).json(targetPost);
+  } else {
+    res.status(400).json({ message: "post does not exist." });
+  }
+});
+
 // upload multiple images and return their url
 router.post(
   "/uploadImages",
