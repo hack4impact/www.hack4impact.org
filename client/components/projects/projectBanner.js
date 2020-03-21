@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default ({
   title,
-  clientDetail,
+  shortSummary,
   clientLink,
   githubLink,
   projectLink,
@@ -25,7 +25,7 @@ export default ({
 
         <Row>
           <div className="col-md-8 offset-md-2">
-            <p className="project-subtitle">{clientDetail}</p>
+            <p className="project-subtitle">{shortSummary}</p>
           </div>
         </Row>
 

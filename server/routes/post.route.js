@@ -5,6 +5,7 @@ const _ = require("underscore");
 const fs = require("fs");
 const vm = require("v-response");
 const { upload } = require("../utils/image-helper");
+const auth = require("../middleware/auth");
 
 let storage = multer.diskStorage({
   destination: (req, file, callback) => {
@@ -21,7 +22,7 @@ let multerUpload = multer({
 
 // on the front end, upload the image first, and put the resulting url
 // inside the project object
-router.post("/new", async (req, res) => {
+router.post("/new", auth, async (req, res) => {
   const semesterName = req.body.semesterName;
   const projects = req.body.projects;
 
@@ -38,7 +39,7 @@ router.post("/new", async (req, res) => {
   }
 });
 
-router.delete("/:name", async (req, res) => {
+router.delete("/:name", auth, async (req, res) => {
   const semesterName = req.params.name;
   try {
     await Posts.findOneAndDelete({ semesterName });
@@ -81,6 +82,7 @@ router.get("/:id", async (req, res) => {
 // upload multiple images and return their url
 router.post(
   "/uploadImages",
+  auth,
   multerUpload.array("multiple-images"),
   async (req, res, next) => {
     if (!req.files || _.isEmpty(req.files)) {
