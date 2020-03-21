@@ -20,19 +20,6 @@ Personally, I recommend using MongoDB Compass for development. Additionally, for
 - CLOUDINARY_API_SECRET=xxxx
 - JWT_SECRET=xxxx
 
-## Project Road Map
-
-- [x] Setup Frontend UI
-- [x] Setup Backend Routes
-- [x] Allow Image Uploading
-- [x] Modify Existing Project Page to Fetch Projects from Backend
-- [x] Setup Authentication / Authorization System
-- [ ] Redesign Specific Project Page to Fit Existing Site's Format (\*\*)
-- [ ] Create Frontend UI for Admin Login / Dashboard
-- [ ] Create Frontend UI for Admin Create Posts (\*\*)
-- [ ] Figure Out Deployment
-- [ ]  Migrate Data from Old Site to New Site (Maybe a Python scrapper?)
-
 ## Backend Endpoints
 **Users**
 - Sign Up
@@ -46,4 +33,19 @@ Personally, I recommend using MongoDB Compass for development. Additionally, for
 - Upload Images; Secured Route
 - Get All Post
 - Get One Project
+
+## Project Road Map
+
+- [x] Setup Frontend UI
+- [x] Setup Backend Routes
+- [x] Allow Image Uploading
+- [x] Modify Existing Project Page to Fetch Projects from Backend
+- [x] Setup Authentication / Authorization System
+- [ ] Redesign Specific Project Page to Fit Existing Site's Format (\*\*)
+- [ ] Create Frontend UI for Admin Login / Dashboard
+- [ ] Create Frontend UI for Admin Create Posts (\*\*)
+- [ ] Figure Out Deployment
+- [ ]  Migrate Data from Old Site to New Site (Maybe a Python scrapper?)
+
+
 
