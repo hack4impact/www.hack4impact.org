@@ -46,6 +46,7 @@ class FeatureSlider extends React.Component {
                         <img
                           className="img-fluid shadow"
                           src={feature.imgPath}
+                          style={{ maxHeight: "500px" }}
                         />
                       </div>
                     )}
@@ -56,7 +57,7 @@ class FeatureSlider extends React.Component {
         </Col>
 
         <Col md={featureTextSize}>
-          <div className="feature-list-box">
+          <div className="feature-list-box" style={{ marginTop: "100px" }}>
             {this.props.features.map(feature => (
               <Row key={feature.title}>
                 <button
