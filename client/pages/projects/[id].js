@@ -5,6 +5,7 @@ import Footer from "../../components/footer";
 import { useRouter } from "next/router";
 import ProjectBanner from "../../components/projects/projectBanner";
 import FeatureSlide from "../../components/featureSlider";
+import ProjectTeam from "../../components/projects/projectTeam";
 import axios from "axios";
 import { Container, Row, Col, Card } from "reactstrap";
 
@@ -37,12 +38,19 @@ const Project = () => {
   const id = router.query.id;
 
   const [project, setProject] = useState();
+  const [title, setTitle] = useState("Project Name");
 
   useEffect(
     () => {
       const baseUrl = process.env.baseURL || "http://localhost:8000";
       axios.get(baseUrl + "/posts/" + id).then(data => {
         const d = data.data;
+
+        const parsedTeam = {
+          type: "pics",
+          detail: d.team
+        };
+
         const newProject = {
           title: d.title,
           codeUrl: d.codeUrl,
@@ -55,11 +63,12 @@ const Project = () => {
           impact: d.impact,
           features: d.features,
           challenges: d.challenges,
-          team: d.team,
+          team: parsedTeam,
           featureImages: d.featureImages
         };
 
         setProject(newProject);
+        setTitle(d.title);
       });
     },
     [id]
@@ -67,7 +76,7 @@ const Project = () => {
 
   return (
     <div>
-      <Head title="Title" />
+      <Head title={`${title} - Hack4Impact`} />
       <Nav navType="otherNav" />
       {project && (
         <div>
@@ -109,10 +118,23 @@ const Project = () => {
                   </h5>
                 </Col>
               </Row>
+
+              <FeatureSlide featureImgSize={6} features={items} />
               <Row>
-                <FeatureSlide featureImgSize={6} features={items} />
+                <Col md="12">
+                  <h5
+                    className="project-detail-title"
+                    style={{ textAlign: "center" }}
+                  >
+                    {" "}
+                    Impact{" "}
+                  </h5>
+                </Col>
+                <Col md="12">{project.impact}</Col>
               </Row>
             </section>
+
+            <ProjectTeam team={project.team} />
           </Container>
         </div>
       )}

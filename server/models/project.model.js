@@ -17,15 +17,15 @@ const projectSchema = new Schema({
   team: [
     {
       name: { type: String, required: true },
-      type: { type: String, required: true }
-    }
+      role: { type: String, required: true },
+    },
   ],
   featureImages: [
     {
       url: { type: String, required: true },
-      description: { type: String, required: true }
-    }
-  ]
+      description: { type: String, required: true },
+    },
+  ],
 });
 
 const Project = mongoose.model("Project", projectSchema);

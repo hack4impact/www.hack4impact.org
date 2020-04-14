@@ -7,9 +7,10 @@
 /coverage
 
 # production
-**/build
-**/dist
-**/.next
+**/build/
+**/dist/
+**/.next/
+**/.vscode/
 
 # misc
 .DS_Store

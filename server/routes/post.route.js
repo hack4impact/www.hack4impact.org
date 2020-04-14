@@ -13,11 +13,11 @@ let storage = multer.diskStorage({
   },
   filename: (req, file, callback) => {
     callback(null, file.originalname);
-  }
+  },
 });
 
 let multerUpload = multer({
-  storage: storage
+  storage: storage,
 });
 
 // on the front end, upload the image first, and put the resulting url
@@ -28,7 +28,7 @@ router.post("/new", auth, async (req, res) => {
 
   const newPost = new Posts({
     semesterName,
-    projects
+    projects,
   });
 
   try {
@@ -63,9 +63,9 @@ router.get("/:id", async (req, res) => {
 
   let targetPost;
 
-  allPosts.forEach(post => {
+  allPosts.forEach((post) => {
     const projects = post.projects;
-    projects.forEach(project => {
+    projects.forEach((project) => {
       if (project._id == projectId) {
         targetPost = project;
       }
@@ -94,7 +94,7 @@ router.post(
 
     try {
       let urls = [];
-      let multiple = async path => await upload(path);
+      let multiple = async (path) => await upload(path);
       for (const file of files) {
         const { path } = file;
 
